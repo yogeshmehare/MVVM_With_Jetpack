@@ -1,27 +1,21 @@
-package com.yogesh.retrofitkotlin.view
+package com.yogesh.retrofitkotlin.quotesAppWithRetrofit.view
 
 import android.graphics.Color
-import android.graphics.drawable.GradientDrawable
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.yogesh.retrofitkotlin.R
 import com.yogesh.retrofitkotlin.databinding.FragmentQuotesBinding
-import com.yogesh.retrofitkotlin.model.`interface`.RetrofitService
-import com.yogesh.retrofitkotlin.model.models.MainRepository
-import com.yogesh.retrofitkotlin.viewmodel.QuotesViewModel
-import com.yogesh.retrofitkotlin.viewmodel.QuotesViewModelFactory
+import com.yogesh.retrofitkotlin.quotesAppWithRetrofit.model.`interface`.RetrofitService
+import com.yogesh.retrofitkotlin.quotesAppWithRetrofit.model.models.MainRepository
+import com.yogesh.retrofitkotlin.quotesAppWithRetrofit.viewmodel.QuotesViewModel
+import com.yogesh.retrofitkotlin.quotesAppWithRetrofit.viewmodel.QuotesViewModelFactory
 import kotlinx.coroutines.DelicateCoroutinesApi
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
 import java.util.*
 
 

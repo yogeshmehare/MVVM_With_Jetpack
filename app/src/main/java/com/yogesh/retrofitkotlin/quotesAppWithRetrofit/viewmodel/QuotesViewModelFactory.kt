@@ -1,8 +1,8 @@
-package com.yogesh.retrofitkotlin.viewmodel
+package com.yogesh.retrofitkotlin.quotesAppWithRetrofit.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.yogesh.retrofitkotlin.model.models.MainRepository
+import com.yogesh.retrofitkotlin.quotesAppWithRetrofit.model.models.MainRepository
 
 
 class QuotesViewModelFactory(private val mainRepository: MainRepository) : ViewModelProvider.NewInstanceFactory() {

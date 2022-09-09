@@ -3,7 +3,7 @@ package com.yogesh.retrofitkotlin
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.yogesh.retrofitkotlin.view.QuotesActivity
+import com.yogesh.retrofitkotlin.quotesAppWithRetrofit.view.QuotesActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

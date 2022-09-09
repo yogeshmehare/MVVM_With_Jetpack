@@ -17,7 +17,7 @@
         android:theme="@style/Theme.RetrofitKotlin"
         tools:targetApi="31">
         <activity
-            android:name=".view.QuotesActivity"
+            android:name="com.yogesh.retrofitkotlin.quotesAppWithRetrofit.view.QuotesActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="false"
             android:label="@string/title_activity_quotes"

@@ -1,6 +1,6 @@
-package com.yogesh.retrofitkotlin.model.`interface`
+package com.yogesh.retrofitkotlin.quotesAppWithRetrofit.model.`interface`
 
-import com.yogesh.retrofitkotlin.model.models.Quote
+import com.yogesh.retrofitkotlin.quotesAppWithRetrofit.model.models.Quote
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

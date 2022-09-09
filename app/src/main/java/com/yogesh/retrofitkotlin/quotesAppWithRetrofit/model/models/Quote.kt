@@ -1,4 +1,4 @@
-package com.yogesh.retrofitkotlin.model.models
+package com.yogesh.retrofitkotlin.quotesAppWithRetrofit.model.models
 
 import com.google.gson.annotations.SerializedName
 

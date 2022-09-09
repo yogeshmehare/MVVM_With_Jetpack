@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.QuotesActivity">
+    tools:context=".quotesAppWithRetrofit.view.QuotesActivity">
 
     <androidx.fragment.app.FragmentContainerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/fragment_container_view"
-        android:name="com.yogesh.retrofitkotlin.view.QuotesFragment"/>
+        android:name="com.yogesh.retrofitkotlin.quotesAppWithRetrofit.view.QuotesFragment"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

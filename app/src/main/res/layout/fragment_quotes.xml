@@ -8,7 +8,7 @@
         android:layout_height="match_parent"
         android:background="@drawable/bg_gradient"
         tools:background="@drawable/bg_card"
-        tools:context=".view.QuotesFragment">
+        tools:context=".quotesAppWithRetrofit.view.QuotesFragment">
 
         <ScrollView
             android:id="@id/scrollView"

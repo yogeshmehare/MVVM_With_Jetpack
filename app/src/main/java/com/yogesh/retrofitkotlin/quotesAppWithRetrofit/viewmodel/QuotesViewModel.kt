@@ -1,10 +1,10 @@
-package com.yogesh.retrofitkotlin.viewmodel
+package com.yogesh.retrofitkotlin.quotesAppWithRetrofit.viewmodel
 
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.yogesh.retrofitkotlin.model.models.MainRepository
-import com.yogesh.retrofitkotlin.model.models.Quote
+import com.yogesh.retrofitkotlin.quotesAppWithRetrofit.model.models.MainRepository
+import com.yogesh.retrofitkotlin.quotesAppWithRetrofit.model.models.Quote
 import kotlinx.coroutines.*
 
 
