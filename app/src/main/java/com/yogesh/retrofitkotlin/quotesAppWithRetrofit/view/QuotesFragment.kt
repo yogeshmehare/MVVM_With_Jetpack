@@ -72,7 +72,6 @@ class QuotesFragment : Fragment() {
         return binding.root
     }
 
-    @OptIn(DelicateCoroutinesApi::class)
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
