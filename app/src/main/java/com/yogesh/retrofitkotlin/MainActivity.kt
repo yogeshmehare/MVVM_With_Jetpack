@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
         appArrayList.add(MyAppModel("Python", R.drawable.whatsapp))
         appArrayList.add(MyAppModel("Javascript", R.drawable.whatsapp))
         appArrayList.add(MyAppModel("DSA", R.drawable.whatsapp))
+        appArrayList.add(MyAppModel("DSA", R.drawable.whatsapp))
 
         val adapter = AppGridAdapter(this, appArrayList)
         gridView.adapter = adapter
@@ -47,7 +48,12 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
+
+
+//        binding.logoUrl = "https://github.com/yogeshmehare/MyProfile/blob/main/publicData/logo2.png"
+        binding.logoUrl = "https://vc575.pcloud.com/dpZwlUJlCZyD64XAZLOzj7ZZSgv0c7Z3VZZUJJZZ3hi8Imq4qvm8MxDvVSN9WFlEBamX/logo2.png"
     }
 
 
 }
+
