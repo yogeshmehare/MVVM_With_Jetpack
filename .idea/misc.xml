@@ -7,9 +7,13 @@
         <entry key="..\:/Users/Yogesh/AndroidStudioProjects/RetrofitKotlin/app/src/main/res/layout/activity_data_store.xml" value="0.21927083333333333" />
         <entry key="..\:/Users/Yogesh/AndroidStudioProjects/RetrofitKotlin/app/src/main/res/layout/activity_main.xml" value="0.21510416666666668" />
         <entry key="..\:/Users/Yogesh/AndroidStudioProjects/RetrofitKotlin/app/src/main/res/layout/activity_quotes.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/Yogesh/AndroidStudioProjects/RetrofitKotlin/app/src/main/res/layout/activity_user_signup.xml" value="0.21927083333333333" />
         <entry key="..\:/Users/Yogesh/AndroidStudioProjects/RetrofitKotlin/app/src/main/res/layout/fragment_data_store.xml" value="0.2" />
         <entry key="..\:/Users/Yogesh/AndroidStudioProjects/RetrofitKotlin/app/src/main/res/layout/fragment_quotes.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/Yogesh/AndroidStudioProjects/RetrofitKotlin/app/src/main/res/layout/fragment_user_signup.xml" value="0.16" />
+        <entry key="..\:/Users/Yogesh/AndroidStudioProjects/RetrofitKotlin/app/src/main/res/layout/fusu.xml" value="0.20208333333333334" />
         <entry key="..\:/Users/Yogesh/AndroidStudioProjects/RetrofitKotlin/app/src/main/res/layout/grid_item.xml" value="0.10462962962962963" />
+        <entry key="..\:/Users/Yogesh/AndroidStudioProjects/RetrofitKotlin/app/src/main/res/layout/user_list_item.xml" value="0.21822916666666667" />
       </map>
     </option>
   </component>

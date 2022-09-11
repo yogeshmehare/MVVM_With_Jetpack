@@ -8,6 +8,7 @@ import androidx.databinding.DataBindingUtil
 import com.yogesh.retrofitkotlin.dataStore.view.DataStoreActivity
 import com.yogesh.retrofitkotlin.databinding.ActivityMainBinding
 import com.yogesh.retrofitkotlin.quotesAppWithRetrofit.view.QuotesActivity
+import com.yogesh.retrofitkotlin.roomDataBase.view.UserSignUpActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -25,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
         appArrayList.add(MyAppModel("Retrofit", R.drawable.whatsapp))
         appArrayList.add(MyAppModel("Data Store", R.drawable.whatsapp))
-        appArrayList.add(MyAppModel("C++", R.drawable.whatsapp))
+        appArrayList.add(MyAppModel("Room Database", R.drawable.whatsapp))
         appArrayList.add(MyAppModel("Python", R.drawable.whatsapp))
         appArrayList.add(MyAppModel("Javascript", R.drawable.whatsapp))
         appArrayList.add(MyAppModel("DSA", R.drawable.whatsapp))
@@ -45,6 +46,10 @@ class MainActivity : AppCompatActivity() {
                 1 -> {
                     val dataStoreIntent = Intent(this, DataStoreActivity::class.java)
                     startActivity(dataStoreIntent)
+                }
+                2 -> {
+                    val roomDatabaseIntent = Intent(this, UserSignUpActivity::class.java)
+                    startActivity(roomDatabaseIntent)
                 }
             }
         }
