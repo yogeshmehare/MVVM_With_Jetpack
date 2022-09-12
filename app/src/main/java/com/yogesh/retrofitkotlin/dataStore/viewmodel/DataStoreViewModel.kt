@@ -6,12 +6,12 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.yogesh.retrofitkotlin.dataStore.model.MyData
 import com.yogesh.retrofitkotlin.dataStore.model.MyDataStore
-import dagger.hilt.android.lifecycle.HiltViewModel
+//import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
-import javax.inject.Inject
+//import javax.inject.Inject
 
-@HiltViewModel
-class DataStoreViewModel @Inject constructor(val myDataStore: MyDataStore) : ViewModel() {
+//@HiltViewModel
+class DataStoreViewModel constructor(private val myDataStore: MyDataStore) : ViewModel() {
 
     var keyToStore = MutableLiveData("")
     val _keyToStore : LiveData<String>

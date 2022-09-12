@@ -6,5 +6,11 @@
 
     <string-array name="android_concepts">
         <item>Retrofit</item>
+        <item>DataStore</item>
+        <item>RoomDatabase</item>
+        <item>ListAdapter</item>
+        <item>Dependency Injection</item>
+        <item>WorkManager</item>
+        <item>DialogFrag &amp; Paging</item>
     </string-array>
 </resources>

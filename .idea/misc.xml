@@ -12,6 +12,7 @@
         <entry key="..\:/Users/Yogesh/AndroidStudioProjects/RetrofitKotlin/app/src/main/res/layout/activity_quotes1.xml" value="0.13177083333333334" />
         <entry key="..\:/Users/Yogesh/AndroidStudioProjects/RetrofitKotlin/app/src/main/res/layout/activity_quotes_list_adapter.xml" value="0.13177083333333334" />
         <entry key="..\:/Users/Yogesh/AndroidStudioProjects/RetrofitKotlin/app/src/main/res/layout/activity_user_signup.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/Yogesh/AndroidStudioProjects/RetrofitKotlin/app/src/main/res/layout/activity_work_manager.xml" value="0.1" />
         <entry key="..\:/Users/Yogesh/AndroidStudioProjects/RetrofitKotlin/app/src/main/res/layout/fragment_data_store.xml" value="0.2" />
         <entry key="..\:/Users/Yogesh/AndroidStudioProjects/RetrofitKotlin/app/src/main/res/layout/fragment_quotes.xml" value="0.21927083333333333" />
         <entry key="..\:/Users/Yogesh/AndroidStudioProjects/RetrofitKotlin/app/src/main/res/layout/fragment_quotes_list_adapter.xml" value="0.13177083333333334" />
@@ -28,5 +29,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="SuppressABINotification">
+    <option name="modulesWithSuppressedNotConfigured">
+      <set>
+        <option value="RetrofitKotlin.app" />
+      </set>
+    </option>
   </component>
 </project>

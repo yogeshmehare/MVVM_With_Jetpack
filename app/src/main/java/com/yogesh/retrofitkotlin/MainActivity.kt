@@ -7,13 +7,16 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.yogesh.retrofitkotlin.dataStore.view.DataStoreActivity
 import com.yogesh.retrofitkotlin.databinding.ActivityMainBinding
+import com.yogesh.retrofitkotlin.dependencyInjection.view.DependencyInjectionActivity
 import com.yogesh.retrofitkotlin.listAdapter.view.QuotesListAdapterActivity
 import com.yogesh.retrofitkotlin.quotesAppWithRetrofit.view.QuotesActivity
 import com.yogesh.retrofitkotlin.roomDataBase.view.UserSignUpActivity
+import com.yogesh.retrofitkotlin.workManager.WorkManagerActivity
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var gridView: GridView
+    private lateinit var appArrayList: ArrayList<MyAppModel>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,15 +26,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         gridView = findViewById(R.id.gridView)
-        val appArrayList: ArrayList<MyAppModel> = ArrayList()
+        appArrayList = ArrayList()
 
-        appArrayList.add(MyAppModel("Retrofit", R.drawable.whatsapp))
-        appArrayList.add(MyAppModel("Data Store", R.drawable.whatsapp))
-        appArrayList.add(MyAppModel("Room Database", R.drawable.whatsapp))
-        appArrayList.add(MyAppModel("ListAdapter", R.drawable.whatsapp))
-        appArrayList.add(MyAppModel("Javascript", R.drawable.whatsapp))
-        appArrayList.add(MyAppModel("DSA", R.drawable.whatsapp))
-        appArrayList.add(MyAppModel("DSA", R.drawable.whatsapp))
+        setAppArrayListData()
 
         val adapter = AppGridAdapter(this, appArrayList)
         gridView.adapter = adapter
@@ -56,11 +53,29 @@ class MainActivity : AppCompatActivity() {
                     val quotesListAdapterIntent = Intent(this, QuotesListAdapterActivity::class.java)
                     startActivity(quotesListAdapterIntent)
                 }
+                4 -> {
+                    val dependencyInjectionIntent = Intent(this, DependencyInjectionActivity::class.java)
+                    startActivity(dependencyInjectionIntent)
+                }
+                5 -> {
+                    val workmanagerIntent = Intent(this, WorkManagerActivity::class.java)
+                    startActivity(workmanagerIntent)
+                }
             }
         }
 
 
         binding.logoUrl = "https://docs.google.com/uc?export=download&id=1ll4ifNyUOTmTITdTnJ7w172DHnEpY_fa"
+    }
+
+    private fun setAppArrayListData() {
+        appArrayList.add(MyAppModel(resources.getStringArray(R.array.android_concepts)[0], R.drawable.whatsapp))
+        appArrayList.add(MyAppModel(resources.getStringArray(R.array.android_concepts)[1], R.drawable.whatsapp))
+        appArrayList.add(MyAppModel(resources.getStringArray(R.array.android_concepts)[2], R.drawable.whatsapp))
+        appArrayList.add(MyAppModel(resources.getStringArray(R.array.android_concepts)[3], R.drawable.whatsapp))
+        appArrayList.add(MyAppModel(resources.getStringArray(R.array.android_concepts)[4], R.drawable.whatsapp))
+        appArrayList.add(MyAppModel(resources.getStringArray(R.array.android_concepts)[5], R.drawable.whatsapp))
+        appArrayList.add(MyAppModel(resources.getStringArray(R.array.android_concepts)[6], R.drawable.whatsapp))
     }
 
 

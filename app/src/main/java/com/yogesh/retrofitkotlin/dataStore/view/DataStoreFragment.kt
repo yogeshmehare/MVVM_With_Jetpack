@@ -12,7 +12,8 @@ import com.yogesh.retrofitkotlin.dataStore.model.MyDataStore
 import com.yogesh.retrofitkotlin.dataStore.module.DataStoreViewModelFactory
 import com.yogesh.retrofitkotlin.dataStore.viewmodel.DataStoreViewModel
 import com.yogesh.retrofitkotlin.databinding.FragmentDataStoreBinding
-import dagger.hilt.android.AndroidEntryPoint
+//import dagger.hilt.android.AndroidEntryPoint
+//import org.json.JSONArray
 
 class DataStoreFragment : Fragment() {
 
