@@ -3,4 +3,8 @@
     <string name="title_activity_quotes">QuotesActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string-array name="android_concepts">
+        <item>Retrofit</item>
+    </string-array>
 </resources>

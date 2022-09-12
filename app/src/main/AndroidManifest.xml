@@ -21,6 +21,10 @@
             android:exported="false"
             android:theme="@style/Theme.MaterialComponents.NoActionBar" />
         <activity
+            android:name=".listAdapter.view.QuotesListAdapterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
+        <activity
             android:name=".dataStore.view.DataStoreActivity"
             android:exported="false"
             android:theme="@style/Theme.MaterialComponents.NoActionBar" />

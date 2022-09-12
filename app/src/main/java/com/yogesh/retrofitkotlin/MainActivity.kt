@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.yogesh.retrofitkotlin.dataStore.view.DataStoreActivity
 import com.yogesh.retrofitkotlin.databinding.ActivityMainBinding
+import com.yogesh.retrofitkotlin.listAdapter.view.QuotesListAdapterActivity
 import com.yogesh.retrofitkotlin.quotesAppWithRetrofit.view.QuotesActivity
 import com.yogesh.retrofitkotlin.roomDataBase.view.UserSignUpActivity
 
@@ -27,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         appArrayList.add(MyAppModel("Retrofit", R.drawable.whatsapp))
         appArrayList.add(MyAppModel("Data Store", R.drawable.whatsapp))
         appArrayList.add(MyAppModel("Room Database", R.drawable.whatsapp))
-        appArrayList.add(MyAppModel("Python", R.drawable.whatsapp))
+        appArrayList.add(MyAppModel("ListAdapter", R.drawable.whatsapp))
         appArrayList.add(MyAppModel("Javascript", R.drawable.whatsapp))
         appArrayList.add(MyAppModel("DSA", R.drawable.whatsapp))
         appArrayList.add(MyAppModel("DSA", R.drawable.whatsapp))
@@ -51,12 +52,15 @@ class MainActivity : AppCompatActivity() {
                     val roomDatabaseIntent = Intent(this, UserSignUpActivity::class.java)
                     startActivity(roomDatabaseIntent)
                 }
+                3 -> {
+                    val quotesListAdapterIntent = Intent(this, QuotesListAdapterActivity::class.java)
+                    startActivity(quotesListAdapterIntent)
+                }
             }
         }
 
 
-//        binding.logoUrl = "https://github.com/yogeshmehare/MyProfile/blob/main/publicData/logo2.png"
-        binding.logoUrl = "https://vc575.pcloud.com/dpZwlUJlCZyD64XAZLOzj7ZZSgv0c7Z3VZZUJJZZ3hi8Imq4qvm8MxDvVSN9WFlEBamX/logo2.png"
+        binding.logoUrl = "https://docs.google.com/uc?export=download&id=1ll4ifNyUOTmTITdTnJ7w172DHnEpY_fa"
     }
 
 
